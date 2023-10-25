@@ -9,6 +9,6 @@ while True:
     print("You have €" + str(round(euros, 2)))
 
     # Asks if user wants to continue
-    convert = input("Would you like to convert dollars to euros again? ")
+    convert = input("Would you like to convert dollars to euros? ")
     if convert == "no":
         break
